@@ -1,0 +1,72 @@
+html {
+  background-color: #008080;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.no-drag, .w98-title, .w98-menu {
+    user-select: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+}
+
+.w98-border1 {
+  border-width: 1px;
+  border-style: solid;
+  border-color: #c0c7c8 #000 #000 #c0c7c8;
+}
+.w98-border2 {
+  border-width: 1px;
+  border-style: solid;
+  border-color: #fff #87888f #87888f #fff;
+}
+.w98-border1r {
+  border-width: 1px;
+  border-style: solid;
+  border-color: #000 #c0c7c8 #c0c7c8 #000;
+}
+.w98-border2r {
+  border-width: 1px;
+  border-style: solid;
+  border-color: #87888f #fff #fff #87888f;
+}
+
+.w98-root {
+  padding: 2px;
+  background-color: #c0c7c8;
+  font-size: 10pt;
+}
+
+.w98-title {
+  background-color: #0000a8;
+  padding: 1px;
+  color: #fff;
+  font-weight: bold;
+  display: flex;
+  justify-content: space-between;
+  user-select: none;
+}
+
+.w98-title div {
+  display: flex;
+  gap: 2px;
+}
+
+.w98-title img {
+  width: 16px;
+  height: 16px;
+  margin: 0 2px
+}
+
+.w98-menu {
+  padding: 1px 4px;
+  display: flex;
+  gap: 1em;
+}
+
+.window-bg {
+  background-color: white;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
