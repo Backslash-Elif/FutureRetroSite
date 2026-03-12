@@ -1,0 +1,48 @@
+.mobile {
+  display: initial;
+}
+
+.desktop {
+  display: none;
+}
+
+body {
+  width: 100%;
+}
+
+header {
+  top: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1em;
+  margin: 0 0 1em 0;
+  border-radius: 0;
+}
+
+header p {
+  position:static;
+  top: 1em;
+  left: 1em;
+}
+
+header div:not(:first-of-type) {
+  display: none;
+  align-items: start;
+  width: 100%;
+}
+
+.header-avatar {
+  padding: 0;
+  flex: 0 auto;
+  display: initial
+}
+
+.header-avatar div {
+  width: 50%;
+}
+
+.header-pages a {
+  font-size: 1.75em;
+}

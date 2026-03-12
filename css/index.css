@@ -1,0 +1,11 @@
+.index-title {
+    display: flex;
+    flex-direction: column;
+    align-items: safe center;
+}
+
+.index-title > div {
+    width: 100%;
+    max-width: 25em;
+    min-width: 18em;
+}

@@ -7,60 +7,83 @@
     <link rel="icon" href="/assets/favicon.ico" />
     <link rel="stylesheet" href="/css/font.css" type="text/css" />
     <link rel="stylesheet" href="/css/global.css" type="text/css" />
+    <link
+      rel="stylesheet"
+      href="/css/mobile.css"
+      type="text/css"
+      media="(max-width: 768px)"
+    />
+    <link rel="stylesheet" href="/css/index.css" type="text/css" />
   </head>
   <body>
     <header>
-      <img src="/assets/icons/file_windows-2.png" alt="placeholder" />
-      <div>
+      <div class="header-avatar">
+        <div>
+          <p class="mobile">☰</p>
+        </div>
+        <div>
+          <a href="/"><img src="/assets/icons/avatar.avif" alt="avatar" /></a>
+        </div>
+      </div>
+      <div class="header-pages">
         <a href="/">Home</a>
         <a href="/Projects">Projects</a>
         <a href="/About">About</a>
       </div>
-      <div>
-        <img src="/assets/icons/msg_warning-0.png" alt="placeholder" />
-        <img src="/assets/icons/msg_warning-0.png" alt="placeholder" />
-        <img src="/assets/icons/msg_warning-0.png" alt="placeholder" />
+      <div class="header-icons">
+        <a href="https://youtube.com/@BackslashProto"
+          ><img src="/assets/icons/yt.svg" alt="youtube"
+        /></a>
+        <a href="https://github.com/Backslash-Elif"
+          ><img src="/assets/icons/github.svg" alt="github"
+        /></a>
+        <img src="/assets/icons/theme-switch.svg" alt="theme-switch" />
       </div>
     </header>
-    <div class="w98-border1 shadow">
-      <div class="w98-border2">
-        <div class="w98-root">
-          <div class="w98-title">
-            <div>
-              <img src="/assets/icons/notepad-0.png" alt="window icon" />
-              <div>Welcome.txt - Notepad</div>
-            </div>
-            <div>
-              <img src="/assets/icons/window_minimize.png" alt="minimze" />
-              <img src="/assets/icons/window_maximize.png" alt="maximize" />
-              <img src="/assets/icons/window_exit.png" alt="exit" />
-            </div>
-          </div>
-          <div class="w98-menu">
-            <div>File</div>
-            <div>Edit</div>
-            <div>Search</div>
-            <div>Help</div>
-          </div>
-          <div class="w98-border2r">
-            <div class="w98-border1r">
-              <div class="window-bg">
-                <h1>Website Title</h1>
-                <h2>Website Subtitle</h2>
+    <div class="mobile-menu mobile"></div>
+    <div class="content">
+      <div class="index-title">
+        <div class="w98-border1 shadow">
+          <div class="w98-border2">
+            <div class="w98-root">
+              <div class="w98-title">
+                <div>
+                  <img src="/assets/icons/notepad-0.png" alt="window icon" />
+                  <div>Welcome.txt - Notepad</div>
+                </div>
+                <div>
+                  <img src="/assets/icons/window_minimize.png" alt="minimze" />
+                  <img src="/assets/icons/window_maximize.png" alt="maximize" />
+                  <img src="/assets/icons/window_exit.png" alt="exit" />
+                </div>
+              </div>
+              <div class="w98-menu">
+                <div>File</div>
+                <div>Edit</div>
+                <div>Search</div>
+                <div>Help</div>
+              </div>
+              <div class="w98-border2r">
+                <div class="w98-border1r">
+                  <div class="window-bg">
+                    <h1>Website Title</h1>
+                    <h2>Website Subtitle</h2>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
         </div>
       </div>
-    </div>
-    <div>
-      <h3>Website Subsection</h3>
-      <p>
-        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Obcaecati rem
-        praesentium molestiae error repellat, reprehenderit similique temporibus
-        ex? Quidem modi possimus incidunt quasi. Repellat autem possimus cum,
-        vitae voluptate iusto!
-      </p>
+      <div>
+        <h3>Website Subsection</h3>
+        <p>
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Obcaecati
+          rem praesentium molestiae error repellat, reprehenderit similique
+          temporibus ex? Quidem modi possimus incidunt quasi. Repellat autem
+          possimus cum, vitae voluptate iusto!
+        </p>
+      </div>
     </div>
   </body>
 </html>
