@@ -9,3 +9,19 @@
     max-width: 25em;
     min-width: 18em;
 }
+
+h1, h3 {
+    margin: 0%;
+}
+
+h3 {
+    margin-top: 1em;
+}
+
+.index-welcomemsg {
+    margin-top: 1em;
+}
+
+p {
+    text-align: justify;
+}

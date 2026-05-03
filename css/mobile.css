@@ -26,8 +26,9 @@ header > div {
   width: 100%;
 }
 
-header > div:not(:first-of-type) {
+#header-content {
   display: none;
+  flex-direction: row;
   align-items: start;
 }
 
@@ -43,10 +44,15 @@ header > div:not(:first-of-type) {
 }
 
 .header-pages {
+  display: flex;
   flex-direction: column;
-  
+  align-items: start;
 }
 
 .header-pages a {
   font-size: 1.75em;
+}
+
+.center-link-button .w98-root div {
+  margin: 0.5em;
 }

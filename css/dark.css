@@ -1,0 +1,35 @@
+html {
+  background: #190033;
+  background: -webkit-linear-gradient(
+    135deg,
+    rgba(25, 0, 51, 1) 0%,
+    rgba(51, 13, 0, 1) 100%
+  );
+  background: -moz-linear-gradient(
+    135deg,
+    rgba(25, 0, 51, 1) 0%,
+    rgba(51, 13, 0, 1) 100%
+  );
+  background: linear-gradient(
+    135deg,
+    rgba(25, 0, 51, 1) 0%,
+    rgba(51, 13, 0, 1) 100%
+  );
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#190033", endColorstr="#330D00", GradientType=0);
+}
+
+body {
+  color: #fff;
+}
+
+a {
+  color: #fff;
+}
+
+header {
+  background-color: #000000b0;
+}
+
+.header-pages a {
+  color: #fff;
+}

@@ -1,0 +1,33 @@
+.contact-flex {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 1em;
+    width: 100%;
+    max-width: 60em;
+    justify-content: space-evenly;
+    margin: 0% auto;
+}   
+
+.contact-flex > div {
+    width: 100%;
+    max-width: 25em;
+    height: min-content;
+}
+
+.window-bg {
+    color: #000;
+    text-decoration: underline;
+}
+
+.window-bg > div {
+    display: flex;
+    flex-direction: row;
+    gap: 0.5em;
+    justify-content: space-between;
+}
+
+.window-bg img {
+    max-width: 48px;
+    height: auto;
+}

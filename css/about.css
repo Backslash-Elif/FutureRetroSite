@@ -1,0 +1,20 @@
+.about-img {
+    display: flex;
+    flex-direction: column;
+    align-items: safe center;
+}
+
+.about-img > div {
+    width: 100%;
+    max-width: 25em;
+    min-width: 18em;
+}
+
+.about-img .window-bg img {
+    width: 100%;
+    height: auto;
+}
+
+#content > div {
+    padding-bottom: 2em;
+}

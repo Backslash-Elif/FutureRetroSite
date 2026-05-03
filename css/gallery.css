@@ -1,0 +1,25 @@
+.gallery-flex {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 1em;
+    width: 100%;
+    max-width: 60em;
+    justify-content: space-evenly;
+    margin: 0% auto;
+}   
+
+.gallery-flex > div {
+    width: 100%;
+    max-width: 25em;
+    height: min-content;
+}
+
+.window-bg img {
+    max-width: 100%;
+    height: auto;
+}
+
+.w98-root a {
+    color: #000;
+}
