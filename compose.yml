@@ -3,7 +3,7 @@ services:
     image: docker.io/httpd:2.4
     container_name: future-retro
     ports:
-      - "80:80"
+      - "3000:80"
     volumes:
       - ./:/usr/local/apache2/htdocs:ro
     restart: unless-stopped
