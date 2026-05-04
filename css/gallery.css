@@ -23,3 +23,8 @@
 .w98-root a {
     color: #000;
 }
+
+.w98-root > a > img {
+    height: 16px;
+    width: 16px;
+}

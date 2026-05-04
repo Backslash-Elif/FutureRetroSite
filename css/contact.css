@@ -31,3 +31,8 @@
     max-width: 48px;
     height: auto;
 }
+
+.w98-root > img {
+    height: 16px;
+    width: 16px;
+}
