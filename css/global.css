@@ -27,6 +27,9 @@ body {
   endColorstr="#FFCCBF",
   GradientType=0
   );
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
   box-shadow: rgb(230, 204, 255) 0px -2em 2em -1em inset;
   margin: 0;
   padding: 0;

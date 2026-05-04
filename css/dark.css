@@ -20,6 +20,9 @@ body {
     rgba(51, 13, 0, 1) 100%
   );
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#190033", endColorstr="#330D00", GradientType=0);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
   box-shadow: rgb(25, 0, 51) 0px -2em 2em -1em inset;
   color: #fff;
 }
