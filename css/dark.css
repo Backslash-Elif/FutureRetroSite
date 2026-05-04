@@ -1,5 +1,9 @@
 html {
   background: #190033;
+}
+
+body {
+  background: #190033;
   background: -webkit-linear-gradient(
     135deg,
     rgba(25, 0, 51, 1) 0%,
@@ -16,9 +20,7 @@ html {
     rgba(51, 13, 0, 1) 100%
   );
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#190033", endColorstr="#330D00", GradientType=0);
-}
-
-body {
+  box-shadow: rgb(25, 0, 51) 0px -2em 2em -1em inset;
   color: #fff;
 }
 

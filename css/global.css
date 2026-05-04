@@ -1,7 +1,11 @@
 html {
-  height: 100vh;
-  padding-bottom: env(safe-area-inset-bottom);
-  overflow-y: hidden;
+  background: #e6ccff;
+  font-family:
+    "Oxanium-woff2", "Oxanium-woff", "Oxanium", "Oxanium-alt", "Segoe UI",
+    Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
   background: #e6ccff;
   background: -webkit-linear-gradient(
     135deg,
@@ -22,17 +26,11 @@ html {
   startColorstr="#E6CCFF",
   endColorstr="#FFCCBF",
   GradientType=0
-);
-  font-family:
-    "Oxanium-woff2", "Oxanium-woff", "Oxanium", "Oxanium-alt", "Segoe UI",
-    Tahoma, Geneva, Verdana, sans-serif;
-}
-
-body {
+  );
+  box-shadow: rgb(230, 204, 255) 0px -2em 2em -1em inset;
   margin: 0;
   padding: 0;
-  height: 100vh;
-  overflow-y: auto;
+  min-height: 100vh;
 }
 
 #display {
@@ -54,7 +52,8 @@ header {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  margin: 0.5em 0.5em 2em 0.5em;
+  margin: 0 0.5em 2em 0.5em;
+  padding-top: 0.5em;
   border-radius: 1em;
   padding: 0.5em;
   box-shadow: 0px 0px 1em -0.25em black;
@@ -201,12 +200,12 @@ a {
 }
 
 .center-link-button {
-    display: flex;
-    flex-direction: column;
-    align-items: safe center;
-    padding: 1em;
+  display: flex;
+  flex-direction: column;
+  align-items: safe center;
+  padding: 1em;
 }
 
-.center-link-button a{
-    color: #000;
+.center-link-button a {
+  color: #000;
 }
