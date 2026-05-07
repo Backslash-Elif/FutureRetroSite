@@ -7,3 +7,8 @@ try {
     if (pref === "off") darkLink.disabled = true;
   }
 } catch (e) {}
+
+// set pride theme
+if (new Date().getMonth() === 5) {
+  document.documentElement.classList.add("is-pride-month");
+}

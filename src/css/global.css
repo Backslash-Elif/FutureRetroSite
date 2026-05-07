@@ -74,8 +74,11 @@ header div {
 .header-avatar img {
   height: 3em;
   width: auto;
-  border-radius: 100%;
   flex: none;
+}
+
+.header-avatar img:first-child {
+  border-radius: 100%;
 }
 
 #header-content {
@@ -211,4 +214,16 @@ a {
 
 .center-link-button a {
   color: #000;
+}
+
+.text-justified {
+  text-align: justify;
+}
+
+.pride {
+  display: none;
+}
+
+.is-pride-month .pride {
+  display: initial;
 }

@@ -5,6 +5,7 @@
   src: url("/assets/fonts/oxanium-latin-200-normal.woff2") format("woff2");
   font-weight: 200;
   font-style: normal;
+  font-display: swap;
 }
 
 @font-face {
@@ -12,6 +13,7 @@
   src: url("/assets/fonts/oxanium-latin-300-normal.woff2") format("woff2");
   font-weight: 300;
   font-style: normal;
+  font-display: swap;
 }
 
 @font-face {
@@ -19,6 +21,7 @@
   src: url("/assets/fonts/oxanium-latin-400-normal.woff2") format("woff2");
   font-weight: 400;
   font-style: normal;
+  font-display: swap;
 }
 
 @font-face {
@@ -26,6 +29,7 @@
   src: url("/assets/fonts/oxanium-latin-500-normal.woff2") format("woff2");
   font-weight: 500;
   font-style: normal;
+  font-display: swap;
 }
 
 @font-face {
@@ -33,6 +37,7 @@
   src: url("/assets/fonts/oxanium-latin-600-normal.woff2") format("woff2");
   font-weight: 600;
   font-style: normal;
+  font-display: swap;
 }
 
 @font-face {
@@ -40,6 +45,7 @@
   src: url("/assets/fonts/oxanium-latin-700-normal.woff2") format("woff2");
   font-weight: 700;
   font-style: normal;
+  font-display: swap;
 }
 
 @font-face {
@@ -47,6 +53,7 @@
   src: url("/assets/fonts/oxanium-latin-800-normal.woff2") format("woff2");
   font-weight: 800;
   font-style: normal;
+  font-display: swap;
 }
 
 /* ==== Woff 1.0 ==== */
@@ -56,6 +63,7 @@
   src: url("/assets/fonts/oxanium-latin-200-normal.woff") format("woff");
   font-weight: 200;
   font-style: normal;
+  font-display: swap;
 }
 
 @font-face {
@@ -63,6 +71,7 @@
   src: url("/assets/fonts/oxanium-latin-300-normal.woff") format("woff");
   font-weight: 300;
   font-style: normal;
+  font-display: swap;
 }
 
 @font-face {
@@ -70,6 +79,7 @@
   src: url("/assets/fonts/oxanium-latin-400-normal.woff") format("woff");
   font-weight: 400;
   font-style: normal;
+  font-display: swap;
 }
 
 @font-face {
@@ -77,6 +87,7 @@
   src: url("/assets/fonts/oxanium-latin-500-normal.woff") format("woff");
   font-weight: 500;
   font-style: normal;
+  font-display: swap;
 }
 
 @font-face {
@@ -84,6 +95,7 @@
   src: url("/assets/fonts/oxanium-latin-600-normal.woff") format("woff");
   font-weight: 600;
   font-style: normal;
+  font-display: swap;
 }
 
 @font-face {
@@ -91,6 +103,7 @@
   src: url("/assets/fonts/oxanium-latin-700-normal.woff") format("woff");
   font-weight: 700;
   font-style: normal;
+  font-display: swap;
 }
 
 @font-face {
@@ -98,6 +111,7 @@
   src: url("/assets/fonts/oxanium-latin-800-normal.woff") format("woff");
   font-weight: 800;
   font-style: normal;
+  font-display: swap;
 }
 
 /* ==== ttf variable ==== */
@@ -107,6 +121,7 @@
   src: url("/assets/fonts/oxanium-latin-200-normal.ttf");
   font-weight: 200;
   font-style: normal;
+  font-display: swap;
 }
 
 @font-face {
@@ -114,6 +129,7 @@
   src: url("/assets/fonts/oxanium-latin-300-normal.ttf");
   font-weight: 300;
   font-style: normal;
+  font-display: swap;
 }
 
 @font-face {
@@ -121,6 +137,7 @@
   src: url("/assets/fonts/oxanium-latin-400-normal.ttf");
   font-weight: 400;
   font-style: normal;
+  font-display: swap;
 }
 
 @font-face {
@@ -128,6 +145,7 @@
   src: url("/assets/fonts/oxanium-latin-500-normal.ttf");
   font-weight: 500;
   font-style: normal;
+  font-display: swap;
 }
 
 @font-face {
@@ -135,6 +153,7 @@
   src: url("/assets/fonts/oxanium-latin-600-normal.ttf");
   font-weight: 600;
   font-style: normal;
+  font-display: swap;
 }
 
 @font-face {
@@ -142,6 +161,7 @@
   src: url("/assets/fonts/oxanium-latin-700-normal.ttf");
   font-weight: 700;
   font-style: normal;
+  font-display: swap;
 }
 
 @font-face {
@@ -149,6 +169,7 @@
   src: url("/assets/fonts/oxanium-latin-800-normal.ttf");
   font-weight: 800;
   font-style: normal;
+  font-display: swap;
 }
 
 /* ==== ttf fallback ==== */
@@ -156,4 +177,5 @@
 @font-face {
   font-family: "Oxanium-alt";
   src: url("/assets/fonts/oxanium-latin-400-normal.ttf");
+  font-display: swap;
 }

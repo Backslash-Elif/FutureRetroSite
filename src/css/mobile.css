@@ -43,6 +43,10 @@ header > div {
   font-size: 2em;
 }
 
+.header-avatar > div:last-of-type {
+  flex-direction: row-reverse;
+}
+
 .header-pages {
   display: flex;
   flex-direction: column;
