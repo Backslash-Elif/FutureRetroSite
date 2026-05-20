@@ -18,3 +18,17 @@
 #content > div {
   padding-bottom: 2em;
 }
+
+.about-bsod {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100vw;
+  user-select: none;
+}
+
+.about-show-bsod .about-bsod {
+  display: initial;
+}
