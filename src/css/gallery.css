@@ -24,7 +24,11 @@
   color: #000;
 }
 
-.w98-root > a > img {
+.gallery-source img {
   height: 16px;
   width: 16px;
+}
+
+#gallery-content h2 {
+  text-align: center;
 }
