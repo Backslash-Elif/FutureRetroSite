@@ -1,72 +1,72 @@
 {
   "Fursona": {
     "Backslash Fox": [
-      "/assets/gallery/backslash/b001.avif",
-      "/assets/gallery/backslash/b002.avif",
-      "/assets/gallery/backslash/b003.avif",
-      "/assets/gallery/backslash/b004.avif",
-      "/assets/gallery/backslash/b005.avif"
+      "/backslash/b001.avif",
+      "/backslash/b002.avif",
+      "/backslash/b003.avif",
+      "/backslash/b004.avif",
+      "/backslash/b005.avif"
     ]
   },
   "Fursuiting": {
     "https://carty.ch": [
-      "/assets/gallery/backslash/carty/c001.avif",
-      "/assets/gallery/backslash/carty/c002.avif",
-      "/assets/gallery/backslash/carty/c003.avif",
-      "/assets/gallery/backslash/carty/c004.avif",
-      "/assets/gallery/backslash/carty/c005.avif",
-      "/assets/gallery/backslash/carty/c006.avif",
-      "/assets/gallery/backslash/carty/c007.avif",
-      "/assets/gallery/backslash/carty/c008.avif",
-      "/assets/gallery/backslash/carty/c009.avif",
-      "/assets/gallery/backslash/carty/c010.avif",
-      "/assets/gallery/backslash/carty/c011.avif",
-      "/assets/gallery/backslash/carty/c012.avif"
+      "/backslash/carty/c001.avif",
+      "/backslash/carty/c002.avif",
+      "/backslash/carty/c003.avif",
+      "/backslash/carty/c004.avif",
+      "/backslash/carty/c005.avif",
+      "/backslash/carty/c006.avif",
+      "/backslash/carty/c007.avif",
+      "/backslash/carty/c008.avif",
+      "/backslash/carty/c009.avif",
+      "/backslash/carty/c010.avif",
+      "/backslash/carty/c011.avif",
+      "/backslash/carty/c012.avif"
     ],
     "https://bsky.app/profile/gfcwfzkm.bsky.social": [
-      "/assets/gallery/backslash/pazzy/p001.avif",
-      "/assets/gallery/backslash/pazzy/p002.avif",
-      "/assets/gallery/backslash/pazzy/p003.avif",
-      "/assets/gallery/backslash/pazzy/p005.avif",
-      "/assets/gallery/backslash/pazzy/p006.avif",
-      "/assets/gallery/backslash/pazzy/p007.avif",
-      "/assets/gallery/backslash/pazzy/p008.avif",
-      "/assets/gallery/backslash/pazzy/p009.avif",
-      "/assets/gallery/backslash/pazzy/p010.avif",
-      "/assets/gallery/backslash/pazzy/p011.avif",
-      "/assets/gallery/backslash/pazzy/p012.avif"
+      "/backslash/pazzy/p001.avif",
+      "/backslash/pazzy/p002.avif",
+      "/backslash/pazzy/p003.avif",
+      "/backslash/pazzy/p005.avif",
+      "/backslash/pazzy/p006.avif",
+      "/backslash/pazzy/p007.avif",
+      "/backslash/pazzy/p008.avif",
+      "/backslash/pazzy/p009.avif",
+      "/backslash/pazzy/p010.avif",
+      "/backslash/pazzy/p011.avif",
+      "/backslash/pazzy/p012.avif"
     ],
     "https://www.tiktok.com/@sharo_haifisch": [
-      "/assets/gallery/backslash/sharo/s001.avif",
-      "/assets/gallery/backslash/sharo/s002.avif",
-      "/assets/gallery/backslash/sharo/s003.avif",
-      "/assets/gallery/backslash/sharo/s004.avif"
+      "/backslash/sharo/s001.avif",
+      "/backslash/sharo/s002.avif",
+      "/backslash/sharo/s003.avif",
+      "/backslash/sharo/s004.avif"
     ]
   },
   "Nature & Outside": {
     "De Cocksdorp, the Netherlands": [
-      "/assets/gallery/nature/b001.avif",
-      "/assets/gallery/nature/b002.avif"
+      "/nature/b001.avif",
+      "/nature/b002.avif"
     ],
-    "Koblenz, Germany": ["/assets/gallery/nature/b003.avif"],
-    "Arbon, Switzerland": ["/assets/gallery/nature/b004.avif"],
-    "Güttingen, Switzerland": ["/assets/gallery/nature/b005.avif"],
-    "Savognin, Switzerland": ["/assets/gallery/nature/b006.avif"],
-    "Domat/Ems, Switzerland": ["/assets/gallery/nature/b007.avif"],
+    "Koblenz, Germany": ["/nature/b003.avif"],
+    "Arbon, Switzerland": ["/nature/b004.avif"],
+    "Güttingen, Switzerland": ["/nature/b005.avif"],
+    "Savognin, Switzerland": ["/nature/b006.avif"],
+    "Domat/Ems, Switzerland": ["/nature/b007.avif"],
     "St. Gallen, Switzerland": [
-      "/assets/gallery/nature/b008.avif",
-      "/assets/gallery/nature/b009.avif"
+      "/nature/b008.avif",
+      "/nature/b009.avif"
     ],
     "Zurich, Switzerland": [
-      "/assets/gallery/nature/b010.avif",
-      "/assets/gallery/nature/b011.avif"
+      "/nature/b010.avif",
+      "/nature/b011.avif"
     ]
   },
   "Miscellaneous Cool Stuff": {
-    "https://bsky.app/profile/gfcwfzkm.bsky.social": ["/assets/gallery/backslash/pazzy/p004.avif"],
+    "https://bsky.app/profile/gfcwfzkm.bsky.social": ["/backslash/pazzy/p004.avif"],
     "iPod with neat reflection":[
-      "/assets/gallery/misc/b012.avif",
-      "/assets/gallery/misc/b013.avif"
+      "/misc/b012.avif",
+      "/misc/b013.avif"
     ]
   }
 }

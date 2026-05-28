@@ -11,7 +11,6 @@ function el(tag, attrs = {}, ...children) {
   return e;
 }
 
-// Call this once the page is ready (e.g., at end of body or DOMContentLoaded)
 async function renderGallery(
   jsonUrl = "/assets/gallery/gallery.json",
   containerId = "gallery-content",
@@ -38,13 +37,12 @@ async function renderGallery(
 
       const sources = data[title] || {};
       const preparedImages = []
-      // sources: keys are either links or place names; values are arrays of image URLs
+      // sources: keys are either links or meta info; values are arrays of image URLs
       for (const sourceKey of Object.keys(sources)) {
         const images = Array.isArray(sources[sourceKey])
           ? sources[sourceKey]
           : [];
 
-        // Determine if sourceKey is a link (basic check)
         const isLink = (() => {
           try {
             const u = new URL(sourceKey);
@@ -55,16 +53,17 @@ async function renderGallery(
         })();
 
         for (const imgUrl of images) {
+          const imageUrl = "/assets/gallery" + imgUrl
           let imgName = "";
           try {
-            const parsed = new URL(imgUrl);
+            const parsed = new URL(imageUrl);
             imgName =
               parsed.pathname.split("/").filter(Boolean).pop() ||
               parsed.hostname;
           } catch (e) {
             // fallback if not a valid URL
-            const parts = imgUrl.split("/");
-            imgName = parts[parts.length - 1] || imgUrl;
+            const parts = imageUrl.split("/");
+            imgName = parts[parts.length - 1] || imageUrl;
           }
           // prettier-ignore
           const node = el("div", { class: "w98-border1 shadow" },
@@ -107,7 +106,7 @@ async function renderGallery(
                 el("div", { class: "w98-border2r" },
                   el("div", { class: "w98-border1r" },
                     el("div", { class: "window-bg" },
-                      el("img", { src: imgUrl, alt: "Photo" }),
+                      el("img", { src: imageUrl, alt: "Photo" }),
                     ),
                   ),
                 ),
@@ -137,8 +136,6 @@ async function renderGallery(
           );
 
           preparedImages.push(node)
-
-          //container.appendChild(node);
         }
       }
       container.appendChild(el('div', { class: 'gallery-flex' }, ...preparedImages));
