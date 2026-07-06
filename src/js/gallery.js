@@ -121,7 +121,7 @@ async function renderGallery(
                           src: "/assets/icons/msie1-3.png",
                           alt: "info",
                         }),
-                        " Click to view source.",
+                        "Click to view source.",
                       )
                     : el("span", {},
                         el("img", {

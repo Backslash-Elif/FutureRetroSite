@@ -24,6 +24,12 @@
   color: #000;
 }
 
+.gallery-source > * {
+  display: flex;
+  align-items: center;
+  gap: 0.25em;
+}
+
 .gallery-source img {
   height: 16px;
   width: 16px;
