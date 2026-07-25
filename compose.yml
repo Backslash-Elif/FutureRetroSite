@@ -1,6 +1,6 @@
 services:
   web:
-    image: nginx:1.27
+    image: docker.io/nginx:1.27
     container_name: future-retro
     ports:
       - "3000:80"
