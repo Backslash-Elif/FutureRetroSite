@@ -1,11 +1,10 @@
 services:
   web:
-    image: docker.io/httpd:2.4
+    image: nginx:1.27
     container_name: future-retro
     ports:
       - "3000:80"
     volumes:
-      - ./src:/usr/local/apache2/htdocs:ro
-      - ./enable-custom.conf:/usr/local/apache2/conf/enable-custom.conf:ro
-      - ./000-default.conf:/usr/local/apache2/conf/extra/000-default.conf:ro
+      - ./src:/usr/share/nginx/html:ro
+      - ./nginx.conf:/etc/nginx/conf.d/default.conf:ro
     restart: unless-stopped
