@@ -1,37 +1,30 @@
+networks:
+  webnet:
+
 services:
   traefik:
     image: docker.io/traefik:v3.1
-    container_name: traefik
-    command:
-      - --api.insecure=false
-      - --providers.docker=true
-      - --providers.docker.exposedbydefault=false
-      - --entrypoints.web.address=:80
-      - --entrypoints.websecure.address=:443
-      - --certificatesresolvers.le.acme.tlschallenge=true
-      - --certificatesresolvers.le.acme.email=backslash2backslashfox.ch
-      - --certificatesresolvers.le.acme.storage=/letsencrypt/acme.json
     ports:
       - "80:80"
       - "443:443"
     volumes:
-      - /var/run/docker.sock:/var/run/docker.sock:ro
       - letsencrypt:/letsencrypt
-    restart: unless-stopped
+      - ./traefik:/etc/traefik
+    command:
+      - --entrypoints.web.address=:80
+      - --entrypoints.websecure.address=:443
+      - --providers.file.directory=/etc/traefik
+      - --providers.file.watch=true
+      - --certificatesresolvers.le.acme.tlschallenge=true
+      - --certificatesresolvers.le.acme.email=backslash@backslashfox.ch
+      - --certificatesresolvers.le.acme.storage=/letsencrypt/acme.json
+    networks:
+      - webnet
 
   web:
     image: docker.io/nginx:1.27
-    container_name: future-retro
     volumes:
       - ./src:/usr/share/nginx/html:ro
       - ./nginx.conf:/etc/nginx/conf.d/default.conf:ro
-    labels:
-      - traefik.enable=true
-      - traefik.http.routers.site.rule=Host(`backslashfox.ch`)
-      - traefik.http.routers.site.entrypoints=websecure
-      - traefik.http.routers.site.tls.certresolver=le
-      - traefik.http.services.site.loadbalancer.server.port=80
-    restart: unless-stopped
-
-volumes:
-  letsencrypt:
+    networks:
+      - webnet

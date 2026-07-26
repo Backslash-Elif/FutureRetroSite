@@ -1,0 +1,15 @@
+http:
+  routers:
+    site:
+      rule: "Host(`backslashfox.ch`)"
+      entryPoints:
+        - websecure
+      tls:
+        certResolver: le
+      service: site-svc
+
+  services:
+    site-svc:
+      loadBalancer:
+        servers:
+          - url: "http://web:80"
