@@ -1,0 +1,8 @@
+services:
+  lastfm-api:
+    build: .
+    env_file:
+      - .env
+    ports:
+      - "3001:3000"
+    restart: unless-stopped

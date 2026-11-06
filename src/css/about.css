@@ -1,4 +1,4 @@
-.about-img {
+.about-img, .about-media {
   display: flex;
   flex-direction: column;
   align-items: safe center;
@@ -31,4 +31,66 @@
 
 .about-show-bsod .about-bsod {
   display: initial;
+}
+
+.about-media > div {
+  width: 100%;
+  max-width: 35em;
+  min-width: 18em;
+}
+
+.media-content {
+  display: flex;
+  flex-direction: column;
+}
+
+.media-title {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.media-title > p {
+  text-wrap-mode: nowrap;
+  padding: 0.5em 0% ;
+  margin: 0%;
+}
+
+.media-title > div {
+  width: calc(100% - 2em);
+  height: 0;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #87888f #fff #fff rgba(0, 0, 0, 0);
+  margin: 0.3em;
+}
+
+.scrobble {
+  display: flex;
+  flex-direction: row;
+}
+
+.scrobble-image {
+  width: 5em;
+  height: 5em;
+}
+
+.scrobble-details {
+  padding-left: 0.8em;
+}
+
+.scrobble-track {
+  font-weight: bolder;
+}
+
+.scrobble-album > span, .scrobble-artist > span {
+  font-style: italic;
+}
+
+.scrobble-separator {
+  border-style: solid;
+  border-width: 1px;
+  border-color: #87888f #fff #fff rgba(0, 0, 0, 0);
+  width: calc(100% - 2em);
+  margin: 0.2em 0 0.2em 1em;
 }
