@@ -68,12 +68,12 @@ function startScribbleDisplay() {
       const ttlMs = Number(data.cacheTtlSeconds) * 1000;
       const delay =
         Number.isFinite(fetchedAt) && Number.isFinite(ttlMs)
-          ? Math.max(0, fetchedAt + ttlMs - Date.now())
+          ? Math.max(60000, fetchedAt + ttlMs - Date.now())
           : 0;
 
       timer = setTimeout(refresh, delay);
     } catch (error) {
-      console.error("Could not load scribbles:", error);
+      console.error("Could not load scrobbles:", error);
       timer = setTimeout(refresh, 30000);
     }
   }
